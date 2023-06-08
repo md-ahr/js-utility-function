@@ -163,7 +163,7 @@ getAllLocalStorageItems();
 Output: { test: "123" }
 \`\`\`
 
-\* \**Explanation:\* \** The getAllLocalStorageItems function retrieves all items stored in the local storage as an object. In this case, the item with the key "test" and value "123" is returned.
+\** \*Explanation:\** \* The getAllLocalStorageItems function retrieves all items stored in the local storage as an object. In this case, the item with the key "test" and value "123" is returned.
 
 #### Number
 
