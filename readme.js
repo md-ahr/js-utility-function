@@ -97,7 +97,7 @@ flattenedArray([[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]]);
 
 Output: [1, 2, 3, 4, 5, 6, 7, 36, 45, 9]
 
-Explanation: The flattenedArray function converts a nested array into a single-level array. \nThe output is obtained by flattening the nested array \n[[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]], resulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
+Explanation: The flattenedArray function converts a nested array into a single-level array. \nThe output is obtained by flattening the nested array [[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]], \nresulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
 \`\`\`
 
 #### Object
