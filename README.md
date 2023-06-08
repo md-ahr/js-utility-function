@@ -302,7 +302,7 @@ import {
 
 ```javascript
 getAllSiblings(document.getElementById("myElement"));
-```javascript
+```
 
 ```javascript
 window.addEventListener("scroll", function () {
