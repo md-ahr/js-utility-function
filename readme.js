@@ -106,7 +106,12 @@ Explanation: The flattenedArray function converts a nested array into a single-l
 -   \`getAllLocalStorageItems()\`: Returns all items from the local storage as an object.
 
 \`\`\`javascript
-import { isObjectEmpty, removeFalsyValues, getAllCookiesAsObject, getAllLocalStorageItems } from "js--utils/object";
+import {
+    isObjectEmpty,
+    removeFalsyValues,
+    getAllCookiesAsObject,
+    getAllLocalStorageItems
+} from "js--utils/object";
 
 console.log(isObjectEmpty({}));
 
