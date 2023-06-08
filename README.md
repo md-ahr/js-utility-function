@@ -39,13 +39,13 @@ yarn add js-utils
 
 ```javascript
 import {
-	uniqueArray,
-	removeFalsyItems,
-	mergedArray,
-	commonElements,
-	areArraysEqual,
-	shuffledArray,
-	flattenedArray
+    uniqueArray,
+    removeFalsyItems,
+    mergedArray,
+    commonElements,
+    areArraysEqual,
+    shuffledArray,
+    flattenedArray
 } from "js--utils/array";
 ```
 
