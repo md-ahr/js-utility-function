@@ -58,7 +58,7 @@ uniqueArray([2, 6, 6, 3, 2, 8]);
 Output: [2, 6, 3, 8]
 \`\`\`
 
-\**Explanation:\** The uniqueArray function takes an array as input and returns a new array that contains only the unique elements from the input array. In this case, the input array is [2, 6, 6, 3, 2, 8], and the output is [2, 6, 3, 8], as it removes the duplicate elements and only keeps the unique ones.
+\***Explanation:\*** The uniqueArray function takes an array as input and returns a new array that contains only the unique elements from the input array. In this case, the input array is [2, 6, 6, 3, 2, 8], and the output is [2, 6, 3, 8], as it removes the duplicate elements and only keeps the unique ones.
 
 \`\`\`javascript
 removeFalsyItems([0, 1, false, true, "", "hello", null, undefined, NaN]);
@@ -66,7 +66,7 @@ removeFalsyItems([0, 1, false, true, "", "hello", null, undefined, NaN]);
 Output: [1, true, "hello"]
 \`\`\`
 
-\**Explanation:\** The removeFalsyItems function removes all falsy values from the array. In the given input array, the falsy values are 0, false, "", null, undefined, and NaN. The output array contains only the truthy values [1, true, "hello"].
+\***Explanation:\*** The removeFalsyItems function removes all falsy values from the array. In the given input array, the falsy values are 0, false, "", null, undefined, and NaN. The output array contains only the truthy values [1, true, "hello"].
 
 \`\`\`javascript
 mergedArray([1, 2, 3], [2, 3, 4], [5, 4]);
@@ -74,7 +74,7 @@ mergedArray([1, 2, 3], [2, 3, 4], [5, 4]);
 Output: [1, 2, 3, 4, 5]
 \`\`\`
 
-\**Explanation:\** The mergedArray function merges multiple arrays into a single array. In this case, the input arrays are [1, 2, 3], [2, 3, 4], and [5, 4]. The output array contains all unique elements from the input arrays, resulting in [1, 2, 3, 4, 5].
+\***Explanation:\*** The mergedArray function merges multiple arrays into a single array. In this case, the input arrays are [1, 2, 3], [2, 3, 4], and [5, 4]. The output array contains all unique elements from the input arrays, resulting in [1, 2, 3, 4, 5].
 
 \`\`\`javascript
 commonElements([1, 2, 3], [2, 3, 4], [4, 5, 3]);
@@ -82,7 +82,7 @@ commonElements([1, 2, 3], [2, 3, 4], [4, 5, 3]);
 Output: [3]
 \`\`\`
 
-\**Explanation:\** The commonElements function returns an array containing the common elements among the input arrays. In this case, the common element between [1, 2, 3], [2, 3, 4], and [4, 5, 3] is 3, so the output is [3].
+\***Explanation:\*** The commonElements function returns an array containing the common elements among the input arrays. In this case, the common element between [1, 2, 3], [2, 3, 4], and [4, 5, 3] is 3, so the output is [3].
 
 \`\`\`javascript
 areArraysEqual([1, 2, 3], [1, 2, 3], [1, 2, 3]);
@@ -90,7 +90,7 @@ areArraysEqual([1, 2, 3], [1, 2, 3], [1, 2, 3]);
 Output: true
 \`\`\`
 
-\**Explanation:\** The areArraysEqual function checks if multiple arrays are equal. In this case, all the input arrays [1, 2, 3] are the same, so the output is true.
+\***Explanation:\*** The areArraysEqual function checks if multiple arrays are equal. In this case, all the input arrays [1, 2, 3] are the same, so the output is true.
 
 \`\`\`javascript
 shuffledArray([5, 3, 2, 15, 6]);
@@ -98,7 +98,7 @@ shuffledArray([5, 3, 2, 15, 6]);
 Output: A randomly shuffled array, e.g., [6, 2, 3, 5, 15]
 \`\`\`
 
-\**Explanation:\** The shuffledArray function shuffles the elements of the input array randomly. The output will be a new array with the elements rearranged in a random order.
+\***Explanation:\*** The shuffledArray function shuffles the elements of the input array randomly. The output will be a new array with the elements rearranged in a random order.
 
 \`\`\`javascript
 flattenedArray([[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]]);
@@ -106,7 +106,7 @@ flattenedArray([[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]]);
 Output: [1, 2, 3, 4, 5, 6, 7, 36, 45, 9]
 \`\`\`
 
-\**Explanation:\** The flattenedArray function converts a nested array into a single-level array. \nThe output is obtained by flattening the nested array [[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]], \nresulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
+\***Explanation:\*** The flattenedArray function converts a nested array into a single-level array. \nThe output is obtained by flattening the nested array [[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]], \nresulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
 
 #### Object
 
@@ -130,7 +130,7 @@ isObjectEmpty({});
 Output: true
 \`\`\`
 
-\**Explanation:\** The isObjectEmpty function checks if an object is empty. In this case, the input object {} has no properties, so it is considered empty.
+\***Explanation:\*** The isObjectEmpty function checks if an object is empty. In this case, the input object {} has no properties, so it is considered empty.
 
 \`\`\`javascript
 removeFalsyValues({ prop1: "value1", prop2: null, prop3: "", prop4: { x: 0, y: 3 }, prop5: "value5" });
@@ -138,14 +138,14 @@ removeFalsyValues({ prop1: "value1", prop2: null, prop3: "", prop4: { x: 0, y: 3
 Output: { prop1: "value1", prop4: { x: 0, y: 3 }, prop5: "value5" }
 \`\`\`
 
-\**Explanation:\** The removeFalsyValues function removes falsy values from an object. In the given input object, the properties prop2 (null) and prop3 (empty string) are considered falsy and are removed from the output object.
+\***Explanation:\*** The removeFalsyValues function removes falsy values from an object. In the given input object, the properties prop2 (null) and prop3 (empty string) are considered falsy and are removed from the output object.
 
 \`\`\`javascript
 setCookie("username", "Abdul Halim", "Fri, 31 Dec 2023 23:59:59 GMT");
 setCookie("email", "ahr@gmail.com", "Fri, 31 Dec 2023 23:59:59 GMT");
 \`\`\`
 
-\**Explanation:\** The setCookie function sets cookies with the provided key-value pairs and expiration date/time.
+\***Explanation:\*** The setCookie function sets cookies with the provided key-value pairs and expiration date/time.
 
 \`\`\`javascript
 getAllCookiesAsObject();
@@ -153,7 +153,7 @@ getAllCookiesAsObject();
 Output: { username: "Abdul Halim", email: "ahr@gmail.com" }
 \`\`\`
 
-\**Explanation:\** The getAllCookiesAsObject function retrieves all cookies as an object. In this case, the cookies set previously with the keys "username" and "email" are returned as an object.
+\***Explanation:\*** The getAllCookiesAsObject function retrieves all cookies as an object. In this case, the cookies set previously with the keys "username" and "email" are returned as an object.
 
 \`\`\`javascript
 localStorage.setItem("test", "123");
