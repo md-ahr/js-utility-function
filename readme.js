@@ -42,11 +42,17 @@ yarn add js-utils
 
 \`\`\`javascript
 import { uniqueArray, removeFalsyItems, mergedArray, commonElements, areArraysEqual, shuffledArray, flattenedArray } from "js--utils/array";
+\`\`\`
 
+\`\`\`javascript
 console.log(uniqueArray([2, 6, 6, 3, 2, 8]));
-Output: [2, 6, 3, 8]
-Explanation: The uniqueArray function takes an array as input and returns a new array that contains only the unique elements from the input array. In this case, the input array is [2, 6, 6, 3, 2, 8], and the output is [2, 6, 3, 8], as it removes the duplicate elements and only keeps the unique ones.
 
+Output: [2, 6, 3, 8]
+
+Explanation: The uniqueArray function takes an array as input and returns a new array that contains only the unique elements from the input array. In this case, the input array is [2, 6, 6, 3, 2, 8], and the output is [2, 6, 3, 8], as it removes the duplicate elements and only keeps the unique ones.
+\`\`\`
+
+\`\`\`javascript
 console.log(removeFalsyItems([0, 1, false, true, "", "hello", null, undefined, NaN]));
 Output: [1, true, "hello"]
 Explanation: The removeFalsyItems function removes all falsy values from the array. In the given input array, the falsy values are 0, false, "", null, undefined, and NaN. The output array contains only the truthy values [1, true, "hello"].
