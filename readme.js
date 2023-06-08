@@ -41,7 +41,7 @@ yarn add js-utils
 -   \`flattenedArray(array)\`: Flattens a multi-dimensional array into a one-dimensional array.
 
 \`\`\`javascript
-import { uniqueArray,\nremoveFalsyItems,\nmergedArray,\ncommonElements,\nareArraysEqual,\nshuffledArray,\nflattenedArray} from "js--utils/array";
+import {\nuniqueArray,\nremoveFalsyItems,\nmergedArray,\ncommonElements,\nareArraysEqual,\nshuffledArray,\nflattenedArray} from "js--utils/array";
 \`\`\`
 
 \`\`\`javascript
