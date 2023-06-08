@@ -1,1 +1,1 @@
-console.log(isElementVisible(document.getElementById("text"))); // true/false
+### Some Useful JavaScript Utility Functions
