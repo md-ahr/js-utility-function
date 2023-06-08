@@ -144,15 +144,25 @@ setCookie("username", "Abdul Halim", "Fri, 31 Dec 2023 23:59:59 GMT");
 setCookie("email", "ahr@gmail.com", "Fri, 31 Dec 2023 23:59:59 GMT");
 ```
 
+**Explanation:** The setCookie function sets cookies with the provided key-value pairs and expiration date/time.
+
 ```javascript
 getAllCookiesAsObject();
+
+Output: { username: "Abdul Halim", email: "ahr@gmail.com" }
 ```
+
+**Explanation:** The getAllCookiesAsObject function retrieves all cookies as an object. In this case, the cookies set previously with the keys "username" and "email" are returned as an object.
 
 ```javascript
 localStorage.setItem("test", "123");
 
 getAllLocalStorageItems();
+
+Output: { test: "123" }
 ```
+
+**Explanation:** The getAllLocalStorageItems function retrieves all items stored in the local storage as an object. In this case, the item with the key "test" and value "123" is returned.
 
 #### Number
 
