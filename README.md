@@ -28,7 +28,6 @@ yarn add js-utils
 ### Usage
 
 #### Array
----
 
 -   `uniqueArray(array)`: Returns a new array with unique elements.
 -   `removeFalsyItems(array)`: Removes falsy values from an array.
@@ -108,8 +107,9 @@ Output: [1, 2, 3, 4, 5, 6, 7, 36, 45, 9]
 The output is obtained by flattening the nested array [[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]], 
 resulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
 
-#### Object
 ---
+
+#### Object
 
 -   `isObjectEmpty(object)`: Checks if an object is empty.
 -   `removeFalsyValues(object)`: Removes falsy values from an object.
