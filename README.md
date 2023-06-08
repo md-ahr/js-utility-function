@@ -28,6 +28,7 @@ yarn add js-utils
 ### Usage
 
 #### Array
+--
 
 -   `uniqueArray(array)`: Returns a new array with unique elements.
 -   `removeFalsyItems(array)`: Removes falsy values from an array.
