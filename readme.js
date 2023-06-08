@@ -167,8 +167,9 @@ Output: { test: "123" }
 
 \***Explanation:\*** The getAllLocalStorageItems function retrieves all items stored in the local storage as an object. In this case, the item with the key "test" and value "123" is returned.
 
-#### Number
 ---
+
+#### Number
 
 -   \`getRandomNumber(min, max)\`: Generates a random integer within the given range.
 -   \`convertToBanglaDigit(number)\`: Converts English digits to Bangla digits.
@@ -194,8 +195,9 @@ convertToBanglaDigit(462);
 isNegative(-1);
 \`\`\`
 
-#### String
 ---
+
+#### String
 
 -   \`capitalizeLetter(string)\`: Capitalizes the first letter of a string.
 -   \`reverseText(string)\`: Reverses the characters in a string.
@@ -233,8 +235,9 @@ truncateWord("Lorem ipsum dolor sit amet, consectetur adipiscing elit", 18);
 containsOnlyDigits("123");
 \`\`\`
 
-#### Date
 ---
+
+#### Date
 
 -   \`differenceInDays(date1, date2)\`: Calculates the difference in days between two dates.
 -   \`addAMPM(hour)\`: Adds the AM/PM suffix to an hour.
@@ -244,23 +247,42 @@ containsOnlyDigits("123");
 -   \`formatDate(date)\`: Converts a date to the Month Date, Year (e.g., 8th Jun, 2023) format.
 
 \`\`\`javascript
-import { differenceInDays, addAMPM, extractDateTimeComponents, formatDuration, formatDateIso, formatDate } from "js--utils/date";
-
-console.log(differenceInDays(new Date("2022-01-01"), new Date("2022-01-08")));
-
-console.log(addAMPM(18));
-
-console.log(extractDateTimeComponents(new Date()));
-
-console.log(formatDuration(3665));
-
-console.log(formatDateIso(new Date()));
-
-console.log(formatDate(new Date("2023-02-03")));
+import {
+    differenceInDays,
+    addAMPM,
+    extractDateTimeComponents,
+    formatDuration, formatDateIso,
+    formatDate
+} from "js--utils/date";
 \`\`\`
 
-#### DOM
+\`\`\`javascript
+differenceInDays(new Date("2022-01-01"), new Date("2022-01-08"));
+\`\`\`
+
+\`\`\`javascript
+addAMPM(18));
+\`\`\`
+
+\`\`\`javascript
+extractDateTimeComponents(new Date());
+\`\`\`
+
+\`\`\`javascript
+formatDuration(3665);
+\`\`\`
+
+\`\`\`javascript
+formatDateIso(new Date());
+\`\`\`
+
+\`\`\`javascript
+formatDate(new Date("2023-02-03"));
+\`\`\`
+
 ---
+
+#### DOM
 
 -   \`getAllSiblings(element)\`: Returns an array of all siblings of an element.
 -   \`isScrollAtTop()\`: Checks if the user has scrolled to the top of the page.
@@ -273,10 +295,24 @@ console.log(formatDate(new Date("2023-02-03")));
 -   \`isElementVisible(element)\`: Checks if an element is visible in the viewport.
 
 \`\`\`javascript
-import { getAllSiblings, isScrollAtTop, isScrollAtBottom, copyToClipboard, getDeviceType, isBrowser, isNodeJS, isElementInFocus, isElementVisible } from "js--utils/dom";
+import {
+    getAllSiblings,
+    isScrollAtTop,
+    isScrollAtBottom,
+    copyToClipboard,
+    getDeviceType,
+    isBrowser,
+    isNodeJS,
+    isElementInFocus,
+    isElementVisible
+} from "js--utils/dom";
+\`\`\`
 
-console.log(getAllSiblings(document.getElementById("myElement")));
+\`\`\`javascript
+getAllSiblings(document.getElementById("myElement"));
+\`\`\`javascript
 
+\`\`\`javascript
 window.addEventListener("scroll", function () {
     if (isScrollAtTop()) {
         console.log("Scrolled to the top of the page!");
@@ -285,24 +321,37 @@ window.addEventListener("scroll", function () {
         console.log("Scrolled to the bottom of the page!");
     }
 });
-
-document.getElementById("btn").addEventListener("click", () => {
-    console.log(copyToClipboard("hello buddy"));
-});
-
-console.log(getDeviceType());
-
-console.log(isBrowser());
-
-console.log(isNodeJS());
-
-console.log(isElementInFocus(document.getElementById("input")));
-
-console.log(isElementVisible(document.getElementById("text")));
 \`\`\`
 
-#### Miscellaneous
+\`\`\`javascript
+document.getElementById("btn").addEventListener("click", () => {
+    copyToClipboard("hello buddy");
+});
+\`\`\`
+
+\`\`\`javascript
+getDeviceType();
+\`\`\`
+
+\`\`\`javascript
+isBrowser();
+\`\`\`
+
+\`\`\`javascript
+isNodeJS();
+\`\`\`
+
+\`\`\`javascript
+isElementInFocus(document.getElementById("input"));
+\`\`\`
+
+\`\`\`javascript
+isElementVisible(document.getElementById("text"));
+\`\`\`
+
 ---
+
+#### Miscellaneous
 
 -   \`randomHexColorCode()\`: Generates a random hexadecimal color code.
 -   \`getUrlParams(url)\`: Extracts query parameters from a URL.
@@ -317,30 +366,64 @@ console.log(isElementVisible(document.getElementById("text")));
 -   \`convertToHTMLEntities(text)\`: Converts special characters to HTML entities.
 
 \`\`\`javascript
-import { randomHexColorCode, getUrlParams, generateUUID, rgbToHex, hexToRgb, setCookie, getCookie, deleteCookie, fahrenheitToCelsius, celsiusToFahrenheit, convertToHTMLEntities } from "js--utils/misc";
+import {
+    randomHexColorCode,
+    getUrlParams,
+    generateUUID,
+    rgbToHex,
+    hexToRgb,
+    setCookie,
+    getCookie,
+    deleteCookie,
+    fahrenheitToCelsius,
+    celsiusToFahrenheit,
+    convertToHTMLEntities
+} from "js--utils/misc";
+\`\`\`
 
-console.log(randomHexColorCode());
+\`\`\`javascript
+randomHexColorCode();
+\`\`\`
 
-console.log(getUrlParams("https://www.google.com.hk/search?q=js+md&page=1&perpage=10"));
+\`\`\`javascript
+getUrlParams("https://www.google.com.hk/search?q=js+md&page=1&perpage=10");
+\`\`\`
 
-console.log(generateUUID());
+\`\`\`javascript
+generateUUID();
+\`\`\`
 
-console.log(rgbToHex(205, 143, 89));
+\`\`\`javascript
+rgbToHex(205, 143, 89);
+\`\`\`
 
-console.log(hexToRgb("#cd8f59"));
+\`\`\`javascript
+hexToRgb("#cd8f59");
+\`\`\`
 
+\`\`\`javascript
 setCookie("username", "Abdul Halim", "Fri, 31 Dec 2023 23:59:59 GMT");
 setCookie("email", "ahr@gmail.com", "Fri, 31 Dec 2023 23:59:59 GMT");
+\`\`\`
 
-console.log(getCookie("username"));
+\`\`\`javascript
+getCookie("username");
+\`\`\`
 
+\`\`\`javascript
 deleteCookie("username");
+\`\`\`
 
-console.log('68°F = fahrenheitToCelsius(68)°C');
+\`\`\`javascript
+fahrenheitToCelsius(68);
+\`\`\`
 
-console.log('20°C = celsiusToFahrenheit(20)°F');
+\`\`\`javascript
+celsiusToFahrenheit(20);
+\`\`\`
 
-console.log(convertToHTMLEntities('<script>alert("Hello & Welcome");</script>'));
+\`\`\`javascript
+convertToHTMLEntities('<script>alert("Hello & Welcome");</script>');
 \`\`\`
 
 ---
