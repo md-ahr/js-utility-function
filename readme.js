@@ -45,7 +45,7 @@ import { uniqueArray, removeFalsyItems, mergedArray, commonElements, areArraysEq
 \`\`\`
 
 \`\`\`javascript
-console.log(uniqueArray([2, 6, 6, 3, 2, 8]));
+uniqueArray([2, 6, 6, 3, 2, 8]);
 
 Output: [2, 6, 3, 8]
 
@@ -53,27 +53,47 @@ Explanation: The uniqueArray function takes an array as input and returns a new 
 \`\`\`
 
 \`\`\`javascript
-console.log(removeFalsyItems([0, 1, false, true, "", "hello", null, undefined, NaN]));
+removeFalsyItems([0, 1, false, true, "", "hello", null, undefined, NaN]);
+
 Output: [1, true, "hello"]
+
 Explanation: The removeFalsyItems function removes all falsy values from the array. In the given input array, the falsy values are 0, false, "", null, undefined, and NaN. The output array contains only the truthy values [1, true, "hello"].
+\`\`\`
 
-console.log(mergedArray([1, 2, 3], [2, 3, 4], [5, 4]));
+\`\`\`javascript
+mergedArray([1, 2, 3], [2, 3, 4], [5, 4]);
+
 Output: [1, 2, 3, 4, 5]
+
 Explanation: The mergedArray function merges multiple arrays into a single array. In this case, the input arrays are [1, 2, 3], [2, 3, 4], and [5, 4]. The output array contains all unique elements from the input arrays, resulting in [1, 2, 3, 4, 5].
+\`\`\`
 
-console.log(commonElements([1, 2, 3], [2, 3, 4], [4, 5, 3]));
+\`\`\`javascript
+commonElements([1, 2, 3], [2, 3, 4], [4, 5, 3]);
+
 Output: [3]
+
 Explanation: The commonElements function returns an array containing the common elements among the input arrays. In this case, the common element between [1, 2, 3], [2, 3, 4], and [4, 5, 3] is 3, so the output is [3].
+\`\`\`
 
-console.log(areArraysEqual([1, 2, 3], [1, 2, 3], [1, 2, 3]));
+\`\`\`javascript
+areArraysEqual([1, 2, 3], [1, 2, 3], [1, 2, 3]);
+
 Output: true
+
 Explanation: The areArraysEqual function checks if multiple arrays are equal. In this case, all the input arrays [1, 2, 3] are the same, so the output is true.
+\`\`\`
 
-console.log(shuffledArray([5, 3, 2, 15, 6]));
+\`\`\`javascript
+shuffledArray([5, 3, 2, 15, 6]);
+
 Output: A randomly shuffled array, e.g., [6, 2, 3, 5, 15]
-Explanation: The shuffledArray function shuffles the elements of the input array randomly. The output will be a new array with the elements rearranged in a random order.
 
-console.log(flattenedArray([[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]]));
+Explanation: The shuffledArray function shuffles the elements of the input array randomly. The output will be a new array with the elements rearranged in a random order.
+\`\`\`
+
+\`\`\`javascript
+flattenedArray([[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]]);
 Output: [1, 2, 3, 4, 5, 6, 7, 36, 45, 9]
 Explanation: The flattenedArray function converts a nested array into a single-level array. The output is obtained by flattening the nested array [[1, 2, [3]], 4, [5, [6, 7, [36, 45, [9]]]]], resulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
 \`\`\`
