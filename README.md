@@ -134,10 +134,11 @@ Output: true
 ```javascript
 removeFalsyValues({ prop1: "value1", prop2: null, prop3: "", prop4: { x: 0, y: 3 }, prop5: "value5" });
 Output: { prop1: "value1", prop4: { x: 0, y: 3 }, prop5: "value5" }
-```javascript
+```
 
 **Explanation:** The removeFalsyValues function removes falsy values from an object. In the given input object, the properties prop2 (null) and prop3 (empty string) are considered falsy and are removed from the output object.
 
+```javascript
 setCookie("username", "Abdul Halim", "Fri, 31 Dec 2023 23:59:59 GMT");
 setCookie("email", "ahr@gmail.com", "Fri, 31 Dec 2023 23:59:59 GMT");
 
