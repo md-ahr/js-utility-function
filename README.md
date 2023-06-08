@@ -40,12 +40,12 @@ yarn add js-utils
 ```javascript
 import {
 uniqueArray,
-removeFalsyItems,
-mergedArray,
-commonElements,
-areArraysEqual,
-shuffledArray,
-flattenedArray} from "js--utils/array";
+	removeFalsyItems,
+	mergedArray,
+	commonElements,
+	areArraysEqual,
+	shuffledArray,
+	flattenedArray} from "js--utils/array";
 ```
 
 ```javascript
