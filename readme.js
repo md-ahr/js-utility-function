@@ -143,13 +143,6 @@ Output: { prop1: "value1", prop4: { x: 0, y: 3 }, prop5: "value5" }
 \***Explanation:\*** The removeFalsyValues function removes falsy values from an object. In the given input object, the properties prop2 (null) and prop3 (empty string) are considered falsy and are removed from the output object.
 
 \`\`\`javascript
-setCookie("username", "Abdul Halim", "Fri, 31 Dec 2023 23:59:59 GMT");
-setCookie("email", "ahr@gmail.com", "Fri, 31 Dec 2023 23:59:59 GMT");
-\`\`\`
-
-\***Explanation:\*** The setCookie function sets cookies with the provided key-value pairs and expiration date/time.
-
-\`\`\`javascript
 getAllCookiesAsObject();
 
 Output: { username: "Abdul Halim", email: "ahr@gmail.com" }
