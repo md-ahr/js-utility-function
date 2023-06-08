@@ -19,7 +19,7 @@ This repository contains various utility functions for JavaScript programming. T
 npm install js-utils
 ```
 
-``or``
+***or***
 
 ```bash
 yarn add js-utils
@@ -171,13 +171,23 @@ Output: { test: "123" }
 -   `isNegative(number)`: Checks if a number is negative.
 
 ```javascript
-import { getRandomNumber, convertToBanglaDigit, isNegative } from "js--utils/number";
+import {
+    getRandomNumber,
+    convertToBanglaDigit,
+    isNegative
+} from "js--utils/number";
+```
 
-console.log(getRandomNumber(1, 100));
+```javascript
+getRandomNumber(1, 100);
+```
 
-console.log(convertToBanglaDigit(462));
+```javascript
+convertToBanglaDigit(462);
+```
 
-console.log(isNegative(-1));
+```javascript
+isNegative(-1);
 ```
 
 #### String
@@ -189,17 +199,33 @@ console.log(isNegative(-1));
 -   `containsOnlyDigits(string)`: Checks if a string contains only digits.
 
 ```javascript
-import { capitalizeLetter, reverseText, reverseWords, truncateWord, containsOnlyDigits } from "js--utils/string";
+import {
+    capitalizeLetter,
+    reverseText,
+    reverseWords,
+    truncateWord,
+    containsOnlyDigits
+} from "js--utils/string";
+```
 
-console.log(capitalizeLetter("My name is rony"));
+```javascript
+capitalizeLetter("My name is rony");
+```
 
-console.log(reverseText("halim"));
+```javascript
+reverseText("halim");
+```
 
-console.log(reverseWords("Hello World! How are you?"));
+```javascript
+reverseWords("Hello World! How are you?");
+```
 
-console.log(truncateWord("Lorem ipsum dolor sit amet, consectetur adipiscing elit", 18));
+```javascript
+truncateWord("Lorem ipsum dolor sit amet, consectetur adipiscing elit", 18);
+```
 
-console.log(containsOnlyDigits("123"));
+```javascript
+containsOnlyDigits("123");
 ```
 
 #### Date
