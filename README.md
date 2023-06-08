@@ -1,20 +1,20 @@
-## Some Useful JavaScript Utility Functions
+# Some Useful JavaScript Utility Functions
 
 This repository contains various utility functions for JavaScript programming. The functions are categorized into different modules based on their functionality.
 
-### Table of Contents
+## Table of Contents
 
 - [Some Useful JavaScript Utility Functions](#some-useful-javascript-utility-functions)
   - [Table of Contents](#table-of-contents)
     - [Array](#array)
-  - [Object](#object)
-  - [Number](#number)
-  - [String](#string)
-  - [Date](#date)
-  - [DOM](#dom)
-  - [Miscellaneous](#miscellaneous)
+    - [Object](#object)
+    - [Number](#number)
+    - [String](#string)
+    - [Date](#date)
+    - [DOM](#dom)
+    - [Miscellaneous](#miscellaneous)
 
-#### Array
+### Array
 
 -   `uniqueArray(array)`: Returns a new array with unique elements.
 -   `removeFalsyItems(array)`: Removes falsy values from an array.
