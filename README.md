@@ -28,7 +28,7 @@ yarn add js-utils
 ### Usage
 
 #### Array
---
+---
 
 -   `uniqueArray(array)`: Returns a new array with unique elements.
 -   `removeFalsyItems(array)`: Removes falsy values from an array.
@@ -109,6 +109,7 @@ The output is obtained by flattening the nested array [[1, 2, [3]], 4, [5, [6, 7
 resulting in [1, 2, 3, 4, 5, 6, 7, 36, 45, 9].
 
 #### Object
+---
 
 -   `isObjectEmpty(object)`: Checks if an object is empty.
 -   `removeFalsyValues(object)`: Removes falsy values from an object.
@@ -166,6 +167,7 @@ Output: { test: "123" }
 ***Explanation:*** The getAllLocalStorageItems function retrieves all items stored in the local storage as an object. In this case, the item with the key "test" and value "123" is returned.
 
 #### Number
+---
 
 -   `getRandomNumber(min, max)`: Generates a random integer within the given range.
 -   `convertToBanglaDigit(number)`: Converts English digits to Bangla digits.
@@ -192,6 +194,7 @@ isNegative(-1);
 ```
 
 #### String
+---
 
 -   `capitalizeLetter(string)`: Capitalizes the first letter of a string.
 -   `reverseText(string)`: Reverses the characters in a string.
@@ -230,6 +233,7 @@ containsOnlyDigits("123");
 ```
 
 #### Date
+---
 
 -   `differenceInDays(date1, date2)`: Calculates the difference in days between two dates.
 -   `addAMPM(hour)`: Adds the AM/PM suffix to an hour.
@@ -255,6 +259,7 @@ console.log(formatDate(new Date("2023-02-03")));
 ```
 
 #### DOM
+---
 
 -   `getAllSiblings(element)`: Returns an array of all siblings of an element.
 -   `isScrollAtTop()`: Checks if the user has scrolled to the top of the page.
@@ -296,6 +301,7 @@ console.log(isElementVisible(document.getElementById("text")));
 ```
 
 #### Miscellaneous
+---
 
 -   `randomHexColorCode()`: Generates a random hexadecimal color code.
 -   `getUrlParams(url)`: Extracts query parameters from a URL.
