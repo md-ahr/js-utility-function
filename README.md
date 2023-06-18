@@ -177,15 +177,27 @@ import {
 
 ```javascript
 getRandomNumber(1, 100);
+
+Output: 42
 ```
+
+***Explanation:*** This function generates a random integer within the given range, inclusive of both the minimum and maximum values.
 
 ```javascript
 convertToBanglaDigit(462);
+
+Output: ৪৬২
 ```
+
+***Explanation:*** This function converts English digits to Bangla digits. It takes a number as input and returns a string with the Bangla digit representation.
 
 ```javascript
 isNegative(-1);
+
+Output: true
 ```
+
+***Explanation:*** This function checks if a number is negative. It takes a number as input and returns true if the number is negative, and false otherwise.
 
 ---
 
@@ -208,24 +220,44 @@ import {
 ```
 
 ```javascript
-capitalizeLetter("My name is rony");
+capitalizeLetter("My name is ahr");
+
+Output: My Name Is Ahr
 ```
+
+***Explanation:*** This function capitalizes the first letter of a string and leaves the rest of the string unchanged.
 
 ```javascript
 reverseText("halim");
+
+Output: milah
 ```
+
+***Explanation:*** This function reverses the characters in a string.
 
 ```javascript
 reverseWords("Hello World! How are you?");
+
+Output: olleH dlroW! woH era ?uoy
 ```
+
+***Explanation:*** This function reverses the words in a string while keeping the order of the characters within each word.
 
 ```javascript
 truncateWord("Lorem ipsum dolor sit amet, consectetur adipiscing elit", 18);
+
+Output: Lorem ipsum dolor...
 ```
+
+***Explanation:*** This function truncates a word in a long string if its length exceeds the specified maxLength. It adds ellipsis ("...") to indicate the truncation.
 
 ```javascript
 containsOnlyDigits("123");
+
+Output: true
 ```
+
+***Explanation:*** This function checks if a string contains only digits. It returns true if the string consists solely of digits, and false otherwise.
 
 ---
 
@@ -250,27 +282,51 @@ import {
 
 ```javascript
 differenceInDays(new Date("2022-01-01"), new Date("2022-01-08"));
+
+Output: 7
 ```
+
+***Explanation:*** This function calculates the difference in days between two dates. It takes two Date objects as input and returns the number of days between them.
 
 ```javascript
 addAMPM(18));
+
+Output: 6 PM
 ```
+
+***Explanation:*** This function converts a 24-hour format hour to a 12-hour format with AM or PM. It takes an integer representing the hour and returns a string with the hour in 12-hour format followed by "AM" or "PM".
 
 ```javascript
 extractDateTimeComponents(new Date());
+
+Output: { year: 2023, month: 6, day: 18, hour: 10, minute: 30, second: 15 }
 ```
+
+***Explanation:*** This function extracts various components (year, month, day, hour, minute, second) from a Date object and returns them as an object.
 
 ```javascript
 formatDuration(3665);
+
+Output: 1:01:05
 ```
+
+***Explanation:*** This function formats a duration in seconds into a human-readable format (HH:MM:SS).
 
 ```javascript
 formatDateIso(new Date());
+
+Output: 2023-06-18
 ```
+
+***Explanation:*** This function formats a Date object into ISO 8601 format (YYYY-MM-DD).
 
 ```javascript
 formatDate(new Date("2023-02-03"));
+
+Output: 03/02/2023
 ```
+
+***Explanation:*** This function formats a Date object into a custom format (DD/MM/YYYY).
 
 ---
 
@@ -302,7 +358,11 @@ import {
 
 ```javascript
 getAllSiblings(document.getElementById("myElement"));
+
+Output: [<div class="sibling1"></div>, <div class="sibling2">
 ```
+
+***Explanation:*** This function returns an array of all siblings of a given element.
 
 ```javascript
 window.addEventListener("scroll", function () {
@@ -313,33 +373,73 @@ window.addEventListener("scroll", function () {
         console.log("Scrolled to the bottom of the page!");
     }
 });
+
+Output: Scrolled to the top of the page
 ```
+
+***Explanation:*** This function checks if the user has scrolled to the top of the page. It returns true if the scroll position is at the top, and false otherwise.
+
+```javascript
+window.addEventListener("scroll", function () {
+    if (isScrollAtBottom()) {
+        console.log("Scrolled to the bottom of the page!");
+    }
+});
+
+Output: Scrolled to the bottom of the page!
+```
+
+***Explanation:*** This function checks if the user has scrolled to the bottom of the page. It returns true if the scroll position is at the bottom, and false otherwise.
 
 ```javascript
 document.getElementById("btn").addEventListener("click", () => {
     copyToClipboard("hello buddy");
 });
+
+Output: The specified text is copied to the clipboard.
 ```
+
+***Explanation:*** This function copies the specified text to the clipboard.
 
 ```javascript
 getDeviceType();
+
+Output: desktop
 ```
+
+***Explanation:*** This function returns the type of device based on the user agent string. It can identify whether the device is a desktop, mobile, or tablet.
 
 ```javascript
 isBrowser();
+
+Output: true if the code is running in a browser, false otherwise.
 ```
+
+***Explanation:*** This function checks if the code is running in a browser environment. It returns true if the code is executed in a browser, and false otherwise.
 
 ```javascript
 isNodeJS();
+
+Output: true if the code is running in Node.js, false otherwise.
 ```
+
+***Explanation:*** This function checks if the code is running in a Node.js environment. It returns true if the code is executed in Node.js, and false otherwise.
 
 ```javascript
 isElementInFocus(document.getElementById("input"));
+
+Output: true if the element is in focus, false otherwise.
 ```
+
+***Explanation:*** This function checks if an element is currently in focus. It takes an element as input and returns true if the element is in focus, and false otherwise.
 
 ```javascript
 isElementVisible(document.getElementById("text"));
+
+Output: true if the element is visible, false otherwise.
 ```
+
+***Explanation:*** This function checks if an element is visible in the viewport. It takes an element as input and returns true if the element is visible
 
 ---
 
@@ -375,48 +475,92 @@ import {
 
 ```javascript
 randomHexColorCode();
+
+Output: #7a2f9b
 ```
+
+***Explanation:*** This function generates a random hexadecimal color code.
 
 ```javascript
 getUrlParams("https://www.google.com.hk/search?q=js+md&page=1&perpage=10");
+
+Output: { q: "js md", page: "1", perpage: "10" }
 ```
+
+***Explanation:*** An object containing the extracted query parameters.
 
 ```javascript
 generateUUID();
+
+Output: 2d867f37-93a6-4b9b-8dbd-d3ff2d4f9b15
 ```
+
+***Explanation:*** This function generates a random UUID (Universally Unique Identifier).
 
 ```javascript
 rgbToHex(205, 143, 89);
+
+Output: #cd8f59
 ```
+
+***Explanation:*** This function converts RGB color values to a hexadecimal color code.
 
 ```javascript
 hexToRgb("#cd8f59");
+
+Output: { r: 205, g: 143, b: 89 }
 ```
+
+***Explanation:*** This function converts a hexadecimal color code to RGB color values.
 
 ```javascript
 setCookie("username", "Abdul Halim", "Fri, 31 Dec 2023 23:59:59 GMT");
 setCookie("email", "ahr@gmail.com", "Fri, 31 Dec 2023 23:59:59 GMT");
+
+Output: A cookie is set with the specified name, value, and expiration date.
 ```
+
+***Explanation:*** This function sets a cookie with the specified name, value, and expiration date.
 
 ```javascript
 getCookie("username");
+
+Output: The value of the cookie with the specified name
 ```
+
+***Explanation:*** This function retrieves the value of a cookie by its name.
 
 ```javascript
 deleteCookie("username");
+
+Output: The cookie with the specified name is deleted.
 ```
+
+***Explanation:*** This function deletes a cookie by its name.
 
 ```javascript
 fahrenheitToCelsius(68);
+
+Output: 20
 ```
+
+***Explanation:*** This function converts a temperature value from Fahrenheit to Celsius.
 
 ```javascript
 celsiusToFahrenheit(20);
+
+Output: 68
 ```
+
+***Explanation:*** This function converts a temperature value from Celsius to Fahrenheit.
 
 ```javascript
 convertToHTMLEntities('<script>alert("Hello & Welcome");</script>');
+
+Output: &lt;script&gt;alert("Hello &amp; Welcome");&lt;/script&gt;
 ```
+
+***Explanation:*** This function converts special characters in a string to HTML entities.
 
 ---
 
