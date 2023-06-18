@@ -1,5 +1,5 @@
 {
-  "name": "js-utils",
+  "name": "js-utils-pkg",
   "version": "1.0.0",
   "description": "Various utility functions for JavaScript programming",
   "main": "readme.js",
