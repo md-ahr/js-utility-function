@@ -1,0 +1,27 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "Various utility functions for JavaScript programming",
+  "main": "readme.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-ahr/js-utility-function.git"
+  },
+  "keywords": [
+    "javascript",
+    "utility functions",
+    "helper functions"
+  ],
+  "author": "Abdul Halim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/md-ahr/js-utility-function/issues"
+  },
+  "homepage": "https://github.com/md-ahr/js-utility-function#readme"
+}
