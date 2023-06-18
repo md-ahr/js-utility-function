@@ -46,7 +46,7 @@ import {
     areArraysEqual,
     shuffledArray,
     flattenedArray
-} from "js-utils-pkg/array";
+} from "js-utils-pkg/lib/array";
 ```
 
 ```javascript
@@ -122,7 +122,7 @@ import {
     removeFalsyValues,
     getAllCookiesAsObject,
     getAllLocalStorageItems
-} from "js-utils-pkg/object";
+} from "js-utils-pkg/lib/object";
 ```
 
 ```javascript
@@ -172,7 +172,7 @@ import {
     getRandomNumber,
     convertToBanglaDigit,
     isNegative
-} from "js-utils-pkg/number";
+} from "js-utils-pkg/lib/number";
 ```
 
 ```javascript
@@ -216,7 +216,7 @@ import {
     reverseWords,
     truncateWord,
     containsOnlyDigits
-} from "js-utils-pkg/string";
+} from "js-utils-pkg/lib/string";
 ```
 
 ```javascript
@@ -277,7 +277,7 @@ import {
     extractDateTimeComponents,
     formatDuration, formatDateIso,
     formatDate
-} from "js-utils-pkg/date";
+} from "js-utils-pkg/lib/date";
 ```
 
 ```javascript
@@ -353,7 +353,7 @@ import {
     isNodeJS,
     isElementInFocus,
     isElementVisible
-} from "js-utils-pkg/dom";
+} from "js-utils-pkg/lib/dom";
 ```
 
 ```javascript
@@ -470,7 +470,7 @@ import {
     fahrenheitToCelsius,
     celsiusToFahrenheit,
     convertToHTMLEntities
-} from "js-utils-pkg/misc";
+} from "js-utils-pkg/lib/misc";
 ```
 
 ```javascript
