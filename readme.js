@@ -19,13 +19,13 @@ This repository contains various utility functions for JavaScript programming. T
 #### Package Installation
 
 \`\`\`bash
-npm install js-utils
+npm install js-utils-pkg
 \`\`\`
 
 \***or\***
 
 \`\`\`bash
-yarn add js-utils
+yarn add js-utils-pkg
 \`\`\`
 
 ### Usage
@@ -49,7 +49,7 @@ import {
     areArraysEqual,
     shuffledArray,
     flattenedArray
-} from "js--utils/array";
+} from "js-utils-pkg/array";
 \`\`\`
 
 \`\`\`javascript
@@ -123,7 +123,7 @@ import {
     removeFalsyValues,
     getAllCookiesAsObject,
     getAllLocalStorageItems
-} from "js--utils/object";
+} from "js-utils-pkg/object";
 \`\`\`
 
 \`\`\`javascript
@@ -173,7 +173,7 @@ import {
     getRandomNumber,
     convertToBanglaDigit,
     isNegative
-} from "js--utils/number";
+} from "js-utils-pkg/number";
 \`\`\`
 
 \`\`\`javascript
@@ -217,7 +217,7 @@ import {
     reverseWords,
     truncateWord,
     containsOnlyDigits
-} from "js--utils/string";
+} from "js-utils-pkg/string";
 \`\`\`
 
 \`\`\`javascript
@@ -278,7 +278,7 @@ import {
     extractDateTimeComponents,
     formatDuration, formatDateIso,
     formatDate
-} from "js--utils/date";
+} from "js-utils-pkg/date";
 \`\`\`
 
 \`\`\`javascript
@@ -354,7 +354,7 @@ import {
     isNodeJS,
     isElementInFocus,
     isElementVisible
-} from "js--utils/dom";
+} from "js-utils-pkg/dom";
 \`\`\`
 
 \`\`\`javascript
@@ -471,7 +471,7 @@ import {
     fahrenheitToCelsius,
     celsiusToFahrenheit,
     convertToHTMLEntities
-} from "js--utils/misc";
+} from "js-utils-pkg/misc";
 \`\`\`
 
 \`\`\`javascript
